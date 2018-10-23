@@ -19,7 +19,7 @@ RUN apk add --update \
     build-base \
   && rm -rf /var/cache/apk/*
 
-ARG SQLLINE_VERSION="1.2.0"
+ARG SQLLINE_VERSION="1.5.0"
 ARG SLF4J_VERSION="1.7.22"
 
 RUN mkdir -p /sqlline/
